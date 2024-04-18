@@ -1,2 +1,2 @@
-# Flusk-Base-Template
-A flusk base project for any application
+# flask-Base-Template
+A flask base project for any application

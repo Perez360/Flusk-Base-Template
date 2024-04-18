@@ -1,11 +1,11 @@
 #!/bin/bash
 
-docker kill flusk-base-template
+docker kill flask-base-template
 
-docker rm flusk-base-template
+docker rm flask-base-template
 
-docker rmi flusk-base-template:latest
+docker rmi flask-base-template:latest
 
-DOCKER_BUILDKIT=1 docker buildx build --platform linux/amd64 -f Dockerfile -t flusk-base-template:latest .
+DOCKER_BUILDKIT=1 docker buildx build --platform linux/amd64 -f Dockerfile -t flask-base-template:latest .
 
-docker compose up flusk-base-template
+docker compose up flask-base-template

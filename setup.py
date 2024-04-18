@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     author="Perez",
     author_email="isaacodei360@gmail.com",
-    description="A flusk base project for any application",
-    url="https://github.com/Perez360/Flusk-Base-Template"
+    description="A flask base project for any application",
+    url="https://github.com/Perez360/flask-Base-Template"
 )
